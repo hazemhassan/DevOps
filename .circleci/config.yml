@@ -2,7 +2,7 @@ version: 2.1
 
 jobs:
   build:
-    docker:
+   docker:
        - image: jruby:9.3
     steps:
       - checkout
